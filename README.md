@@ -28,7 +28,7 @@ Build a RandomForestClassifier model
     
 -3.2 Handling column types conversations 
 
-➡️EDA 
+4-EDA (Exploratory Data Analysis)
 
  ➡️Correlations between numerical columns
  
@@ -44,21 +44,27 @@ Build a RandomForestClassifier model
  
  ➡️Online security vs churn 
  
-4-Feature Engineering 
+5-Feature Engineering 
 
-  4.1 Label Encoding,One Hot Coding
-  4.2 Standard Scaling (To avoid confusion)
-  4.3 Feature and Target selection 
-
-5-Modeling 
- 
-  5.1 model selection
+  5.1 Label Encoding,One Hot Coding
   
-  5.2 Fitting(Training)
-     
-  5.3 Prediction 
+  5.2 Standard Scaling (To avoid confusion)
+  
+  5.3 Feature and Target selection 
 
-6-Model Evaluation 
+6-Model Selection  
+ 
+   model  (RandomForestClassifier)
+   
+7-Pipeline Buliding
+
+  7.1Pipeline()
+  
+  7.2 Fitting(Training)
+     
+  7.3 Prediction 
+
+8-Model Evaluation 
 
   accuracy_score(), classification report 
 
