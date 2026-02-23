@@ -1,8 +1,11 @@
 3#problem statement 
+
 In service companies the major problem is customer retention.they do not know why their customers are  leaving..
 
 🎯 Objective 
-Built a Customer Churn Detection system
+Build a Customer Churn Detection system
+
+Build a RandomForestClassifier model
 
 Data set over view
 
@@ -12,7 +15,7 @@ Data set over view
 
 ##Approach 
 
-➡️here are the things I did while developing 
+➡️here are the things I did while developing this system
 
 1-Importing required libraries libraries 
 
@@ -27,11 +30,17 @@ Data set over view
 ➡️EDA 
 
  ➡️Correlations between numerical columns
+ 
  ➡️Churn count yes vs no 
+ 
  ➡️Monthly charges vs churn
+ 
  ➡️Contract vs churn 
+ 
  ➡️Tenure vs churn
+ 
  ➡️ Internet service vs churn
+ 
  ➡️Online security vs churn 
  
 4-Feature Engineering 
