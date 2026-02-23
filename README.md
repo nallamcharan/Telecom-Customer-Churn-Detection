@@ -1,13 +1,14 @@
-3#problem statement 
+##problem statement 
 
 In service companies the major problem is customer retention.they do not know why their customers are  leaving..
 
 🎯 Objective 
+
 Build a Customer Churn Detection system
 
 Build a RandomForestClassifier model
 
-Data set over view
+##Data set over view
 
 ▶️Data set :Jio telecom company customers csv data set with  17000 records.
 
