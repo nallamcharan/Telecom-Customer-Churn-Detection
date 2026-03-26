@@ -1,34 +1,33 @@
-##problem statement 
+# 🔐Problem Statement :
 
-In service companies the major problem is customer retention.they do not know why their customers are  leaving..
+In service companies the major problem is customer retention.They do not know why their customers are  leaving .Due to this problem may the company get into losses.
 
-🎯 Objective 
+# 🎯 Objective :
 
-Build a Customer Churn Detection system
+Build a Customer Churn Detection system by RandomForestClassifier model
 
-Build a RandomForestClassifier model
-
-##Data set over view
+# Data Set Over View : 
 
 ▶️Data set :Jio telecom company customers csv data set with  17000 records.
 
 ▶️features:customer name , age , gender , city , Monhtly charges , contract, Internet service , online security , churn
 
-##Approach 
+# Approach : 
 
-➡️here are the things I did while developing this system
+➡️Here are the things I did while developing this model .
 
-1-Importing required libraries libraries 
+# 1-Importing Required Libraries 
 
-2-Data collection and inspection(pd.read_csv(),.info())
-
-3-Data preprocessing 
+# 2-Data collection and inspection() 
+  pandas.read_csv(),df.info(),describe()
+  
+# 3-Data Preprocessing 
 
  3.1 Handling null values (fillna())
     
 -3.2 Handling column types conversations 
 
-4-EDA (Exploratory Data Analysis)
+# 4-EDA (Exploratory Data Analysis)
 
  ➡️Correlations between numerical columns
  
@@ -44,7 +43,7 @@ Build a RandomForestClassifier model
  
  ➡️Online security vs churn 
  
-5-Feature Engineering 
+# 5-Feature Engineering 
 
   5.1 Label Encoding,One Hot Coding
   
@@ -52,11 +51,11 @@ Build a RandomForestClassifier model
   
   5.3 Feature and Target selection 
 
-6-Model Selection  
+# 6-Model Selection  
  
    model  (RandomForestClassifier)
    
-7-Pipeline Buliding
+# 7-Pipeline Buliding
 
   7.1Pipeline()
   
@@ -64,20 +63,25 @@ Build a RandomForestClassifier model
      
   7.3 Prediction 
 
-8-Model Evaluation 
+# 8-Model Evaluation 
+  Model generated  accuracy .
 
-  accuracy_score(), classification report 
+  Worked back on recall to generate accurate results by adjusting parameters.
+  
+  accuracy_score(), classification report (),classification matrix()
 
-📈Impact of this System on business 
+# 📈Impact of this System on business :
 
-1-Churn risk can decrease ..
+  Surely this model resuults can directly following places
+  
+  1-Churn risk can decrease ..
 
-2-Business revenue can boost
+  2-Business revenue can boost
 
-3-Company growth can happen 
+  3-Company growth can happen 
 
 
-By using this model we can rectify the churn rate along with overcoming the following things those making churn .
+# By using this model we can rectify the churn rate along with overcoming the following things those making churn .
 
 ✔ Online Security
 
