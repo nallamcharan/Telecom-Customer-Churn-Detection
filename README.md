@@ -4,13 +4,17 @@ In service companies the major problem is customer retention.They do not know wh
 
 # 🎯 Objective :
 
-Build a Customer Churn Detection system by RandomForestClassifier model
+Build a Customer Churn Detection system by RandomForestClassifier model with pipeline struture.
 
 # Data Set Over View : 
 
 ▶️Data set :Jio telecom company customers csv data set with  17000 records.
 
 ▶️features:customer name , age , gender , city , Monhtly charges , contract, Internet service , online security , churn
+
+# Demo Results.
+<img width="832" height="254" alt="Screenshot 2026-03-26 202110" src="https://github.com/user-attachments/assets/d0f7371d-b016-4d14-bf46-146469824f47" />
+
 
 # Approach : 
 
